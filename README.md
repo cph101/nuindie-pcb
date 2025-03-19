@@ -23,8 +23,11 @@ Working bottom upwards...
 
 At the bottom of the shade, lies the diffuser and [placeholder]. They are secured using two [length] PH0 screws.
 
-Beyond that lies the LED board. This The upper face of this board contains a horizontal 4-pin header. The lower side contains 3 contacts for charging the battery, resistors, and LEDs. (See photo below)
+Beyond that lies the LED board. This The upper face of this board contains a horizontal 4-pin header. The lower side contains 3 contacts for charging the battery, resistors, and pairs of LEDs (never on simultaneously, and the right one is a warmer colour). (See photo below)
 
-![The LED board underside](LED_Board.jpg)
+<img href="https://github.com/cph101/nuindie-pcb/blob/main/LED_Board.jpg?raw=true" alt="The LED board underside" width="80px" />
 
 The LED board is fixed to a metal plate by 2 [length] PH3 screws, which is, in turn, fixed to a plastic support frame using 3 more.
+This frame supports the upper board, which controls the lower board and charges the battery through a dual jumper wire
+
+<img href="https://github.com/cph101/nuindie-pcb/blob/main/Logic_Board.jpg?raw=true" alt="The logic board top side" width="80px" />
