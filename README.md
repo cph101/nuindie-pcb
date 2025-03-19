@@ -9,9 +9,9 @@ This repository will be updated as the research is completed.
 
 ## Prelude
 
-In the following document, Directions will always refer one of the following:
-- In the lamp: Up is the upwards direction when the lamp is fully assembled.
-- On a component: Up is the upwards direction when the silkscreen marking may be read correctly, i.e some components are "upside down"
+In the following document, Directions will always refer to the corresponding definition below:
+- Composition of the shade: Up is the upwards direction when the lamp is fully assembled.
+- Of a component: Up is the upwards direction when the silkscreen marking may be read correctly, i.e some components are "upside down"
 
 ## Nuindie composition
 
