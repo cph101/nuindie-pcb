@@ -32,10 +32,14 @@ This frame supports the upper board, which controls the lower board and charges 
 
 <img src="https://github.com/cph101/nuindie-pcb/blob/main/Logic_Board.jpg?raw=true" alt="The logic board top side" height="300px" />
 
-The microcontrollers had the following text printed upon them:
+## 2. Logic
+
+The two ICs had the following text printed upon them:
 ```
 Lower controller: P1256A CPCA1V.1B
 Upper controller: F5LMC
 ```
 
-I tried to look these up using a variety of databases, but was unsuccessful. As such, I have decided that developing an entirely new PCB centred around a ESP32-compatible controller is the quickest step towards the completion of the project.
+I tried to look these up using a variety of databases, but was unsuccessful. Due to the placement of the bottom chip, I have concluded that it manages the battery loading and discharge. The top controller likely monitors the self-capacitance of the touch-sensitive electrode.
+
+For the purposes of recreating the board, I will use readily available and documented chips. When the ESP32 microcontroller is introduced, it will also implement the function of the top chip.
