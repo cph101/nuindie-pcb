@@ -7,3 +7,12 @@ This repository will be updated as the research is completed.
 
 ![Active Development Status](https://img.shields.io/badge/Status-Active_Development-green)
 
+## Prelude
+
+In the following document, Directions will always refer one of the following:
+- In the lamp: Up is the upwards direction when the lamp is fully assembled.
+- On a component: Up is the upwards direction when the silkscreen marking may be read correctly, i.e some components are "upside down"
+
+## Nuindie composition
+
+The lower structure of the lamp can be deduced quite easily through the [battery replacement tutorial](https://www.youtube.com/watch?v=30Anm9yBXpk)
