@@ -7,7 +7,7 @@ This repository will be updated as the research is completed.
 
 ![Active Development Status](https://img.shields.io/badge/Status-Active_Development-green)
 
-## Prelude
+## 0. Prelude
 
 In the following document, Directions will always refer to the corresponding definition below:
 - Composition of the shade: Up is the upwards direction when the lamp is fully assembled.
@@ -17,6 +17,10 @@ The lower structure of the lamp can be seen quite easily through the official [b
 
 However, without owning the lamp, one cannot deduce the logic-related circuit structure. As such, I have fully disassembled said lamp and tested the implementation of various features.
 
-## Composition
+## 1. Composition
 
-At the bottom of the shade, lies the diffuser and [placeholder].
+Working bottom upwards...
+
+At the bottom of the shade, lies the diffuser and [placeholder]. They are secured using two [length] PH0 screws.
+
+Beyond that lies the LED board. This PCB only contains LEDs and resistors, and can be manipulated by altering the electronic signals of the 4 pin-header on the top of the board. These are documented in section [schematics]
