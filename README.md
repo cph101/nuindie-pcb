@@ -32,18 +32,10 @@ This frame supports the upper board, which controls the lower board and charges 
 
 <img src="https://github.com/cph101/nuindie-pcb/blob/main/Logic_Board.jpg?raw=true" alt="The logic board top side" height="300px" />
 
-Due to poor photo quality, I attach the text on top of the components:
+The microcontrollers had the following text printed upon them:
 ```
-R6, R7: 4R70
-R11: 102
-
-R12, R8: 512
-R13: 5601
-R9: 1095
-R3: 102
-R1: 122
-R5: R300
-
 Lower controller: P1256A CPCA1V.1B
 Upper controller: F5LMC
 ```
+
+I tried to look these up using a variety of databases, but was unsuccessful. As such, I have decided that developing an entirely new PCB centred around a ESP32-compatible controller.
