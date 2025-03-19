@@ -23,6 +23,8 @@ Working bottom upwards...
 
 At the bottom of the shade, lies the diffuser and [placeholder]. They are secured using two [length] PH0 screws.
 
-Beyond that lies the LED board. This PCB only contains LEDs and resistors, and can be manipulated by altering the electronic signals of the 4 pin-header on the top of the board, the various functions of which are documented in section [schematics].
+Beyond that lies the LED board. This The upper face of this board contains a horizontal 4-pin header. The lower side contains 3 contacts for charging the battery, resistors, and LEDs. (See photo below)
 
+![The LED board underside](LED_Board.jpg)
 
+The LED board is fixed to a metal plate by 2 [length] PH3 screws, which is, in turn, fixed to a plastic support frame using 3 more.
