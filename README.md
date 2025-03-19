@@ -1,7 +1,7 @@
 # Nuindie-pcb
 
-This is the results of my research to reverse engineer the printed circuit board of the Sigor Nuindie Table lamp.
-It was originally created to design a custom PCB to replace or hook into the proprietary one, for the purposes of adding compatability with the Matter framework/CHIP project, so that it may be added to supporting smart home ecosystems.
+This is the results of my research to reverse engineer the printed circuit boards of the Sigor Nuindie Table lamp.
+It was originally created to design custom PCBs to replace or hook into the proprietary ones, for the purposes of adding compatability with the Matter framework/CHIP project, so that it may be added to supporting smart home ecosystems.
 
 This repository will be updated as the research is completed.
 
@@ -13,6 +13,10 @@ In the following document, Directions will always refer to the corresponding def
 - Composition of the shade: Up is the upwards direction when the lamp is fully assembled.
 - Of a component: Up is the upwards direction when the silkscreen marking may be read correctly, i.e some components are "upside down"
 
-## Nuindie composition
+The lower structure of the lamp can be seen quite easily through the official [battery replacement tutorial](https://www.youtube.com/watch?v=30Anm9yBXpk).
 
-The lower structure of the lamp can be deduced quite easily through the [battery replacement tutorial](https://www.youtube.com/watch?v=30Anm9yBXpk)
+However, without owning the lamp, one cannot deduce the logic-related circuit structure. As such, I have fully disassembled said lamp and tested the implementation of various features.
+
+## Composition
+
+At the bottom of the shade, lies the diffuser and [placeholder].
