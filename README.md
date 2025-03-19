@@ -25,9 +25,25 @@ At the bottom of the shade, lies the diffuser and [placeholder]. They are secure
 
 Beyond that lies the LED board. This The upper face of this board contains a horizontal 4-pin header. The lower side contains 3 contacts for charging the battery, resistors, and pairs of LEDs (never on simultaneously, and the right one is a warmer colour). (See photo below)
 
-<img href="https://github.com/cph101/nuindie-pcb/blob/main/LED_Board.jpg?raw=true" alt="The LED board underside" width="80px" />
+<img src="https://github.com/cph101/nuindie-pcb/blob/main/LED_Board.jpg?raw=true" alt="The LED board underside" height="300px" />
 
 The LED board is fixed to a metal plate by 2 [length] PH3 screws, which is, in turn, fixed to a plastic support frame using 3 more.
 This frame supports the upper board, which controls the lower board and charges the battery through a dual jumper wire
 
-<img href="https://github.com/cph101/nuindie-pcb/blob/main/Logic_Board.jpg?raw=true" alt="The logic board top side" width="80px" />
+<img src="https://github.com/cph101/nuindie-pcb/blob/main/Logic_Board.jpg?raw=true" alt="The logic board top side" height="300px" />
+
+Due to poor photo quality, I attach the text on top of the components:
+```
+R6, R7: 4R70
+R11: 102
+
+R12, R8: 512
+R13: 5601
+R9: 1095
+R3: 102
+R1: 122
+R5: R300
+
+Lower controller: P1256A CPCA1V.1B
+Upper controller: F5LMC
+```
