@@ -38,4 +38,4 @@ Lower controller: P1256A CPCA1V.1B
 Upper controller: F5LMC
 ```
 
-I tried to look these up using a variety of databases, but was unsuccessful. As such, I have decided that developing an entirely new PCB centred around a ESP32-compatible controller.
+I tried to look these up using a variety of databases, but was unsuccessful. As such, I have decided that developing an entirely new PCB centred around a ESP32-compatible controller is the quickest step towards the completion of the project.
