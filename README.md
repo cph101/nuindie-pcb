@@ -46,4 +46,4 @@ For the purposes of recreating the board, I will use readily available and docum
 
 ## LED Board
 
-Contacts are believed to be [Mill-Max 6430](https://www.mill-max.com/products/printed-circuit-board-pcb-pin/press-fit-pcb-pin/6430/6430-0-00-15-00-00-03-0) pins
+The led board features 3 pogo pins of [length]
