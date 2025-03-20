@@ -43,3 +43,7 @@ Upper controller: F5LMC
 I tried to look these up using a variety of databases, but was unsuccessful. Due to the placement of the bottom chip, I have concluded that it manages the battery loading and discharge. The top controller likely monitors the self-capacitance of the touch-sensitive electrode.
 
 For the purposes of recreating the board, I will use readily available and documented chips. When the ESP32 microcontroller is introduced, it will also implement the function of the top chip.
+
+## LED Board
+
+Contacts are believed to be [Mill-Max 6430](https://www.mill-max.com/products/printed-circuit-board-pcb-pin/press-fit-pcb-pin/6430/6430-0-00-15-00-00-03-0) pins
