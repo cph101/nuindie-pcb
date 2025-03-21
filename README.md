@@ -1,6 +1,6 @@
 # Nuindie-pcb
 
-This is the results of my research to reverse engineer the printed circuit boards of the Sigor Nuindie Table lamp.
+These are the results of my research to reverse engineer the printed circuit boards of the Sigor Nuindie Table lamp.
 It was originally created to design custom PCBs to replace or hook into the proprietary ones, for the purposes of adding compatability with the Matter framework/CHIP project, so that it may be added to supporting smart home ecosystems.
 
 This repository will be updated as the research is completed.
@@ -28,7 +28,7 @@ Beyond that lies the LED board. This The upper face of this board contains a hor
 <img src="https://github.com/cph101/nuindie-pcb/blob/main/LED_Board.jpg?raw=true" alt="The LED board underside" height="300px" />
 
 The LED board is fixed to a metal plate by 2 [length] PH3 screws, which is, in turn, fixed to a plastic support frame using 3 more.
-This frame supports the upper board, which controls the lower board and charges the battery through a dual jumper wire
+This frame supports the upper board, which controls the lower board and charges the battery through a dual jumper wire. The battery is of type 18650-1S2P, which can easily be purchased on amazon, or even Temu if you are feeling brave.
 
 <img src="https://github.com/cph101/nuindie-pcb/blob/main/Logic_Board.jpg?raw=true" alt="The logic board top side" height="300px" />
 
@@ -40,10 +40,6 @@ Lower controller: P1256A CPCA1V.1B
 Upper controller: F5LMC
 ```
 
-I tried to look these up using a variety of databases, but was unsuccessful. Due to the placement of the bottom chip, I have concluded that it manages the battery loading and discharge. The top controller likely monitors the self-capacitance of the touch-sensitive electrode.
+I tried to look these up using a variety of databases, but was unsuccessful. Due to the placement of the bottom chip, I have concluded that it manages the battery loading and discharge. The top controller monitors the self-capacitance of the touch-sensitive electrode.
 
-For the purposes of recreating the board, I will use readily available and documented chips. When the ESP32 microcontroller is introduced, it will also implement the function of the top chip.
-
-## LED Board
-
-The led board features 3 pogo pins of [length]
+For the approximate replication of the logic board, I will use a [TP5100](insert_link)-based circuit to control the battery charging
