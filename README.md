@@ -47,6 +47,8 @@ I tried to look these up using a variety of databases, but was unsuccessful. Due
 
 </details>
 
-The 16850 Li-Ion battery, although marked with 3.7V, has a charge voltage of 4.2V ([See Datasheet](https://www.akumulator.si/images/products/Baterija_li-ion_18650_2200mah.pdf)). For those interested, two are connected in parallel to increase capacity while maintaing voltage.
+The [2200mAh 16850 battery](https://www.akumulator.si/images/products/Baterija_li-ion_18650_2200mah.pdf), although marked with 3.7V, has a charge voltage of 4.2V. For those interested, two are connected in parallel to double capacity while maintaing voltage.
 
-As such, a [TP5100](insert_link)-based circuit is an appropriate solution to manage battery charging, while supporting simultaneous discharge.
+As such, a [TP5100](https://voltiq.ru/datasheets/TP5100-datashhet.pdf)-based circuit is an appropriate solution to manage battery charging, while supporting simultaneous discharge.
+
+
