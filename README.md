@@ -27,19 +27,26 @@ Beyond that lies the LED board. This The upper face of this board contains a hor
 
 <img src="https://github.com/cph101/nuindie-pcb/blob/main/LED_Board.jpg?raw=true" alt="The LED board underside" height="300px" />
 
-The LED board is fixed to a metal plate by 2 [length] PH3 screws, which is, in turn, fixed to a plastic support frame using 3 more.
-This frame supports the upper board, which controls the lower board and charges the battery through a dual jumper wire. The battery is of type 18650-1S2P, which can easily be purchased on amazon, or even Temu if you are feeling brave.
+The LED board is fixed to a metal plate by 2 [length] PH3 screws, which is, in turn, fixed to a plastic support frame using 3 more, which supports the upper (logic) board.
 
 <img src="https://github.com/cph101/nuindie-pcb/blob/main/Logic_Board.jpg?raw=true" alt="The logic board top side" height="300px" />
 
 ## 2. Logic
 
+I have concluded that finding alternatives to the ICs is the best course of action, <details>
+  <summary>See why</summary>
+
+  
 The two ICs had the following text printed upon them:
 ```
 Lower controller: P1256A CPCA1V.1B
 Upper controller: F5LMC
 ```
 
-I tried to look these up using a variety of databases, but was unsuccessful. Due to the placement of the bottom chip, I have concluded that it manages the battery loading and discharge. The top controller monitors the self-capacitance of the touch-sensitive electrode.
+I tried to look these up using a variety of databases, but was unsuccessful. Due to the placement of the chips, I have concluded that the lower one manages the battery loading and discharge, and the top controller switches the active LEDs based on self-capacitance of the electrode in the center of the board.
 
-For the approximate replication of the logic board, I will use a [TP5100](insert_link)-based circuit to control the battery charging
+</details>
+
+The 16850 Li-Ion battery, although marked with 3.7V, has a charge voltage of 4.2V ([See Datasheet](https://www.akumulator.si/images/products/Baterija_li-ion_18650_2200mah.pdf)). For those interested, two are connected in parallel to increase capacity while maintaing voltage.
+
+As such, a [TP5100](insert_link)-based circuit is an appropriate solution to manage battery charging, while supporting simultaneous discharge.
