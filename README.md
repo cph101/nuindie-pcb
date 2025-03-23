@@ -31,20 +31,7 @@ The LED board is fixed to a metal plate by 2 [length] PH3 screws, which is, in t
 
 ## 2. Logic
 
-I have concluded that finding alternatives to the ICs is the best course of action,
-<details>
-  <summary>See why</summary>
-
-  
-  The two ICs had the following text printed upon them:
-  ```
-  Lower controller: P1256A CPCA1V.1B
-  Upper controller: F5LMC
-  ```
-  
-  I tried to look these up using a variety of databases, but was unsuccessful. Due to the placement of the chips, I have concluded that the lower one manages the battery loading and discharge, and the top controller switches the active LEDs based on self-capacitance of the electrode in the center of the board.
-
-</details>
+The lower IC manages the battery loading and discharge, and the top controller switches the active LEDs based on self-capacitance of the electrode in the center of the board. Due to the unavailability of the components, I will use alternatives for my custom board.
 
 The [2200mAh 16850 battery](https://www.akumulator.si/images/products/Baterija_li-ion_18650_2200mah.pdf), although marked with 3.7V, has a charge voltage of 4.2V. For those interested, two are connected in parallel to double capacity while maintaing voltage.
 
