@@ -13,13 +13,11 @@ In the following document, Directions will always refer to the corresponding def
 - Composition of the shade: Up is the upwards direction when the lamp is fully assembled.
 - Of a component: Up is the upwards direction when the silkscreen marking may be read correctly, i.e some components are "upside down"
 
-The lower structure of the lamp can be seen quite easily through the official [battery replacement tutorial](https://www.youtube.com/watch?v=30Anm9yBXpk).
-
-However, without owning the lamp, one cannot deduce the logic-related circuit structure. As such, I have fully disassembled said lamp and tested the implementation of various features.
+The names of components, when linked, will always be directed towards the datasheets of said components.
 
 ## 1. Composition
 
-Working bottom upwards...
+The lower structure of the lamp can be seen quite easily through the official [battery replacement tutorial](https://www.youtube.com/watch?v=30Anm9yBXpk), however, the more interesting parts can only be seen by taking apart the lamp. Working bottom upwards...
 
 At the bottom of the shade, lies the diffuser and [placeholder]. They are secured using two [length] PH0 screws.
 
