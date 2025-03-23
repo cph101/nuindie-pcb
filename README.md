@@ -33,17 +33,18 @@ The LED board is fixed to a metal plate by 2 [length] PH3 screws, which is, in t
 
 ## 2. Logic
 
-I have concluded that finding alternatives to the ICs is the best course of action, <details>
+I have concluded that finding alternatives to the ICs is the best course of action,
+<details>
   <summary>See why</summary>
 
   
-The two ICs had the following text printed upon them:
-```
-Lower controller: P1256A CPCA1V.1B
-Upper controller: F5LMC
-```
-
-I tried to look these up using a variety of databases, but was unsuccessful. Due to the placement of the chips, I have concluded that the lower one manages the battery loading and discharge, and the top controller switches the active LEDs based on self-capacitance of the electrode in the center of the board.
+  The two ICs had the following text printed upon them:
+  ```
+  Lower controller: P1256A CPCA1V.1B
+  Upper controller: F5LMC
+  ```
+  
+  I tried to look these up using a variety of databases, but was unsuccessful. Due to the placement of the chips, I have concluded that the lower one manages the battery loading and discharge, and the top controller switches the active LEDs based on self-capacitance of the electrode in the center of the board.
 
 </details>
 
@@ -51,4 +52,4 @@ The [2200mAh 16850 battery](https://www.akumulator.si/images/products/Baterija_l
 
 As such, a [TP5100](https://voltiq.ru/datasheets/TP5100-datashhet.pdf)-based circuit is an appropriate solution to manage battery charging, while supporting simultaneous discharge.
 
-
+Considering the touch sensing, I will use the [TTP224N-BSB](https://www.sunrom.com/download/SUNROM-TTP224N-BSB_V3.1_EN.pdf) chip set to `Direct mode, CMOS active high output`, with SM set to single-key mode by connecting the pin to V<sub>SS</sub>/GND. All other pins (barring power and electrode-related) are left open.
