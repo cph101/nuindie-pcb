@@ -7,6 +7,9 @@ This repository will be updated as the research is completed.
 
 ![Active Development Status](https://img.shields.io/badge/Status-Active_Development-green)
 
+> [!TIP]
+> This document is concise and purely factual, I have also written a [narrative version](insert_link).
+
 ## 0. Prelude
 
 In the following document, Directions will refer to the upwards direction when the silkscreen marking may be read correctly, i.e some components are "upside down". The names of components, when linked, will always be directed towards the datasheets of said components.
@@ -15,7 +18,12 @@ In the following document, Directions will refer to the upwards direction when t
 
 The internal structure of the lampshade can be seen quite easily on the [designer's website](https://sigor.de/en/products/interior-lights#c201), however, the PCBs' layouts remain a mystery to those who have not taken apart the lamp, as such I attach photos.
 
-<img src="https://github.com/cph101/nuindie-pcb/blob/main/LED_Board.jpg?raw=true" alt="The LED board underside" height="300px" /><img src="https://github.com/cph101/nuindie-pcb/blob/main/Logic_Board.jpg?raw=true" alt="The logic board top side" height="300px" />
+> Note: The mentioned image is also uploaded to this repository, so that it may be viewed even in the event that it is taken down from the official website
+
+<p align="middle">
+  <img src="https://github.com/cph101/nuindie-pcb/blob/main/LED_Board.jpg?raw=true" alt="The LED board underside" height="300px" />
+  <img src="https://github.com/cph101/nuindie-pcb/blob/main/Logic_Board.jpg?raw=true" alt="The logic board top side" height="300px" />
+</p>
 
 > LED Board (left), Logic board (right)
 
