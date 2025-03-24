@@ -20,7 +20,7 @@ The internal structure of the lampshade can be seen quite easily on the [designe
 
 > Note: The mentioned image is also uploaded to this repository, so that it may be viewed even in the event that it is taken down from the official website
 
-<p align="middle">
+<p>
   <img src="https://github.com/cph101/nuindie-pcb/blob/main/LED_Board.jpg?raw=true" alt="The LED board underside" height="300px" />
   <img src="https://github.com/cph101/nuindie-pcb/blob/main/Logic_Board.jpg?raw=true" alt="The logic board top side" height="300px" />
 </p>
