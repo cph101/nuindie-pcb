@@ -33,7 +33,7 @@ The lower IC manages the battery loading and discharge, and the top controller s
 
 Fortunately, the ESP32 IC (and modular derivatives) provides an array of pins which have the ability to monitor capacitance, and as such, can entirely replace the function of the top controller.
 
-The [2200mAh 16850 battery](https://www.akumulator.si/images/products/Baterija_li-ion_18650_2200mah.pdf), although marked with 3.7V, has a charge voltage of 4.2V. For those interested, two are connected in parallel to double capacity while maintaing voltage.
+The [2200mAh 16850 battery](https://www.akumulator.si/images/products/Baterija_li-ion_18650_2200mah.pdf), although having a voltage of 3.7V, can charge at 4.2V. For those interested, two are connected in parallel to double capacity while maintaing voltage.
 
 As such, a [TP5100](https://voltiq.ru/datasheets/TP5100-datashhet.pdf)-based circuit is an appropriate solution to manage battery charging, while supporting simultaneous discharge.
 
